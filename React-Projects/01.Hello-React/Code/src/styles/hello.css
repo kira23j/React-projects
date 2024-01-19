@@ -1,0 +1,95 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    background:linear-gradient(45deg,rgb(174, 241, 241),rgb(3, 72, 49),black);
+    width: 100vw;
+    height: 100vh;
+}
+.full{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.headingc{
+
+    width: 100vw;
+    height: fit-content;
+    background:linear-gradient(45deg,#8c8ce3,black,rgb(1, 65, 65));
+    display: flex;
+   justify-content: center;
+}
+
+.heading{
+    color: white;
+    font-weight: 900;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    background: rgb(4, 79, 102);
+    display:flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+    padding: 1rem;
+}
+.content h2{
+    color: white;
+    font-size: 4rem;
+    text-decoration: underline;
+    text-shadow: 0.25rem 0.25rem 0.2rem black;
+}
+.content p{
+font-size: 2rem;
+color: aliceblue;
+text-align: center;
+text-shadow: 1px 1px 1px blue;
+}
+.content button{
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    font-size: larger;
+    background:linear-gradient(to right,red,orange,green ) ;
+    font-weight: 600;
+    color: white;
+    box-shadow: 0.25rem 0.25rem 0.5rem whitesmoke;
+
+}
+.footer{
+    background: linear-gradient(to right,linen,rgb(3, 69, 69),rgb(1, 32, 22),rgb(65, 56, 1));
+    position: fixed;
+    bottom: 0;
+    height: 3rem;
+    width: 100vw;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: xx-large;
+    color: white;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+    width: 90vw;
+    }
+    .full{
+        gap: 1rem;
+    }
+    .content h2{
+        font-size: 2rem;
+    }
+    .conten p{
+        font-size: 1.5rem;
+    }
+  }
