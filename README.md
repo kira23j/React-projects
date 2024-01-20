@@ -1,1 +1,1 @@
-# React-Next-projects
+# HTML-CSS-JS-projects
