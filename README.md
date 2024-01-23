@@ -29,13 +29,13 @@ Make sure you have the following installed:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/kira23j/react.git
+    git clone https://github.com/kira23j/React-Projects.git
     ```
 
 2. Navigate to the React Projects Hub directory:
 
     ```bash
-    cd react
+    cd React-Projects
     ```
 
 3. Install dependencies:
