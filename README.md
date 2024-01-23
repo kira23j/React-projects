@@ -29,7 +29,7 @@ Make sure you have the following installed:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/react.git
+    git clone https://github.com/kira23j/react.git
     ```
 
 2. Navigate to the React Projects Hub directory:
@@ -47,22 +47,11 @@ Make sure you have the following installed:
 ## Usage
 
 Explore the various React projects within this repository:
-- [Project A](./projects/project_a/): [Brief description of Project A]
-- [Project B](./projects/project_b/): [Brief description of Project B]
-- ...
-
 Each project directory contains its own README with project-specific details.
 
 ## Contributing
 
 If you're interested in contributing, refer to the individual project directories for specific contribution guidelines.
 
-## License
 
-This repository is licensed under the [MIT License](LICENSE).
 
-Enjoy building with React!
-
----
-
-This template provides a concise overview of the React Projects Hub, the benefits of using React, and basic setup instructions. Customize it further based on your preferences and details of the repository.
