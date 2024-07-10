@@ -1,8 +1,10 @@
 import React from "react";
-import '../styles/footer.css'
+import '../styles/keeper.css'
 function Footer(){
     return (
-        <p>this is footer </p>
+        <div className="footer">
+        <p>footer for css </p>
+        </div>
     );
 }
 export default Footer;

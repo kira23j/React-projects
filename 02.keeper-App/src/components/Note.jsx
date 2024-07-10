@@ -1,8 +1,11 @@
 import React from "react";
-import '../styles/note.css';
+import '../styles/keeper.css';
 function Note(){
     return (
-        <h2>this is notes page</h2>
+        <div className="notes">
+            <h2>this is notes page</h2>
+        </div>
+        
     );
 };
 export default Note;

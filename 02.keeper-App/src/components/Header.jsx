@@ -1,8 +1,11 @@
 import React from "react";
-import '../styles/header.css';
+import '../styles/keeper.css';
 function Header(){
     return (
-        <h1 >Keeper</h1>
+        <div className="header">
+   <h1 >Note Keeper App</h1>
+        </div>
+     
     );
 }
 
