@@ -19,9 +19,9 @@ const notes=[
         title:"noteFive",
         content:"dolor sit amet consectetur adipisicing elit. Dolor aliquid omnis quaerat ipsum qui laborum suscipit architecto dolore quasi harum!"
     },  
-  
 
-    
+
+
 ]
 
 export default notes
